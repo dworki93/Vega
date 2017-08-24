@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Vega.Data;
+using Vega.Persistence;
 using Vega.Resources;
 
 namespace Vega.Controllers

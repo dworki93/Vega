@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Vega.Data;
+using Vega.Persistence;
 
 namespace Vega
 {
