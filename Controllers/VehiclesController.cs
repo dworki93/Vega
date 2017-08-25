@@ -19,7 +19,7 @@ namespace Vega.Controllers
             _context = context;
         }
 
-        [Route("api/makes")]
+        [Route("api/vehicles/makes")]
         public async Task<IActionResult> GetMakes()
         {
             var makes = await _context.Makes
@@ -28,7 +28,7 @@ namespace Vega.Controllers
             return Ok(_mapper.Map<List<MakeResource>>(makes));
         }
 
-        [Route("api/features")]
+        [Route("api/vehicles/features")]
         public async Task<IActionResult> GetFeatures()
         {
             var features = await _context.Features
