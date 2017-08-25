@@ -16,7 +16,7 @@ namespace Vega.Domain
 
         public bool IsRegistered { get; set; }
 
-        public ICollection<Feature> Features { get; set; }
+        public ICollection<VehicleFeature> Features { get; set; }
 
         [Required]
         [StringLength(255)]
@@ -33,7 +33,7 @@ namespace Vega.Domain
 
         public Vehicle()
         {
-            Features = new Collection<Feature>();
+            Features = new Collection<VehicleFeature>();
         }
     }
 }
